@@ -1,0 +1,24 @@
+{
+    "presets": [
+        [
+            "env",
+            {
+                "targets": {
+                    "browsers": [
+                        "last 5 versions",
+                        "ie >= 8"
+                    ]
+                }
+            }
+        ]
+    ]
+}
+
+
+
+/*
+
+Note: things that is not in the ES5 can not be converted in ES5, (ex: promises,array.from) => we need to plyfilled them
+
+
+*/
